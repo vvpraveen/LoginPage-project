@@ -1,0 +1,29 @@
+
+body{
+    background-image: url('image3.jpg');
+    background-size: cover;
+     text-align:center ;
+}
+button:hover{
+    background-color: palegreen;
+    text-align: center;
+    transition: 0.05s;
+}
+button{
+    color: black;
+    border: 2px bold red;
+    width: 40%;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+}
+button:hover::after{
+width: 50%;
+border: none;
+}
+span{
+    background-color: blue;
+width: 40%;
+
+}
